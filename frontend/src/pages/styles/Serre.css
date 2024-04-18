@@ -1,0 +1,90 @@
+.parent{
+    text-align: center;
+}
+
+.titre{
+    background-color: darkslategrey;
+    color:white;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+
+.plantDetails ul {
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.plantDetails ul li {
+    list-style: none;
+    flex: 0 0 33.333333%;
+}
+
+.carte {
+    background-color: cadetblue;
+    margin:auto;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.carte:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containerCarte {
+    padding: 2px 100px;
+}
+
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 100%;
+    border: 1px;
+}
+
+.retourBouton{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: crimson;
+    border: none;
+    color: white;
+    width: 10%;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.retourBouton:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.rowCarte{
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePlant{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.valueCarte{
+    font-weight: bold;
+}
+
+.titreValue{
+    text-transform: uppercase;
+    font-weight: bold;
+}
